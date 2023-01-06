@@ -1,0 +1,72 @@
+:root {
+  --main-bg-color: #30313A;
+  --main-accent-color: #ec6fb2;
+  --alternate-accent-color: #FF6F00;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.accent {
+  color: var(--main-accent-color);
+}
+
+.accent-2 {
+  color: var(--alternate-accent-color);
+}
+.link{
+  color: white;
+  font-size: xx-large;
+}
+.logo{
+ height: 30vw;
+ align-self: center;
+}
+.fpcontainer{
+  /* code to contain the image and title and date in a container that adjusts with the page size */
+
+  height: 100vh;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+@media screen and (max-width: 800px) {
+  .fpcontainer {
+      /* code to contain the image and title and date in a container that adjusts with the page size */
+      text-align: center;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-bottom: 30vh;
+  
+    }
+    .mobile{
+      padding-top: 400px
+    }
+    .drawing {
+      width: 100%;
+    }
+}
+p {
+  text-align: center;
+  font-size: xx-large;
+}
+.titlebox{
+font-size: 5vw;
+ border-bottom: 10px solid #ec6fb2; 
+ border-radius: 5px 5px 5px 5px;
+}
+
+.header{
+  text-align: center; 
+  font-size: 7vh;
+}
+
+l, ul {
+  list-style: none;
+  font-size: xx-large;
+}
+
+
+/* u {
+  text-decoration-color: var(--main-accent-color);
+} */
